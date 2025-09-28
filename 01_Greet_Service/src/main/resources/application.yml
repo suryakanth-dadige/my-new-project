@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: 01_Greet_Service
+  boot:
+    admin:
+      client:
+        url: http://localhost:1111      
+server:
+  port: 9090
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+   
